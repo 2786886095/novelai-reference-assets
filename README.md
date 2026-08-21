@@ -1,10 +1,22 @@
-# NovelAI 角色精准参考图库
+# Langbai NovelAI 角色参考资源库
 
-本仓库用于 Langbai NovelAI Studio 在线预设库，仅提供 NovelAI 精准参考图片。
+供 [Langbai NovelAI Studio](https://nai.langbai.cc/) 与在线角色图库使用的公开图片资源仓库。
 
-- 每个游戏 / 分类 / 角色形态只保留一个最佳尺寸。
-- 分类包括“游戏内角色图”“角色立绘”及单分类游戏的“角色资源”。
-- 索引：`catalog/index.json`
-- 在线检索：https://2786886095.github.io/novelai-image-desktop/
+- 在线图库：https://2786886095.github.io/novelai-image-desktop/
+- 软件仓库：https://github.com/2786886095/novelai-image-desktop
+- 更新日期：2026.8.21
+- 支持：简体中文、繁体中文、日语、韩语、英语搜索与显示
 
-图片角色及游戏版权归原权利人所有。本仓库仅作非商业工具参考与检索；如有权利问题请联系仓库作者处理。
+## 资源结构
+
+每个可用角色/形态最多提供三类文件：
+
+1. `原始图`：下载或生成阶段保留的原始文件；
+2. `处理好的原图`：透明背景、人物主体优先的处理结果；
+3. `NovelAI精准参考`：每个角色/形态只保留一个最佳合法尺寸。
+
+`thumbnails/` 是网站使用的轻量 WebP 缩略图。`catalog/index.json` 是软件和网站读取的机器清单。
+
+中国大陆的精准参考图与缩略图按游戏拆分同步到 Gitee，避免单仓库体积过大；原图和处理图由 GitHub 资源仓库提供。
+
+> 角色与游戏相关权利归各自权利人所有。本仓库仅用于资源整理与便捷访问，请遵守原作品及平台规则。
